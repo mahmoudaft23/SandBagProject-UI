@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap");
+.page1 {
+  height: 100%;
+  max-height: 100%;
+}
+.Meun {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.user-name-font-div {
+  width: 100%;
+  text-align: right;
+}
+.user-name-font {
+  font-size: 30px;
+  color: #6c44e5;
+  margin-right: 7%;
+  margin-bottom: 10px;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+}
+.Meunpageouter {
+  width: 90%;
+  border-radius: 40px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+  padding-bottom: 20px;
+  max-height: 320px;
+}
+.title-1 {
+  display: flex;
+  justify-content: center;
+}
+.title-1-font {
+  font-size: 40px;
+  color: #6b46c1;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+}
+.Meunpage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 23px;
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.BottomBorder-2 {
+  height: 3px;
+  background: #6c44e5;
+  margin-top: 1px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  padding-left: 5%;
+}
+
+.dropdown-button {
+  background-color: #6b46c1;
+  color: white;
+  font-weight: bold;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 70%;
+  transform: translateX(-50%);
+  margin-top: 8px;
+  background-color: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 150px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.dropdown-item {
+  cursor: pointer;
+  padding: 2px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.text-font-dropdown {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Tajawal", sans-serif;
+}
+.text-font-dropdown-min {
+  font-size: 18px;
+  font-weight: bold;
+}
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+.user-meun {
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.user-meun-iner {
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+}
+.user-img {
+  width: 100%;
+  height: 20%;
+}
+.text-font-dropdown-min-1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6b46c1;
+  font-family: Arial, sans-serif;
+}
+.text-font-dropdown-min-2 {
+  font-size: 11px;
+  font-weight: bold;
+  color: #6b46c1;
+  font-family: Arial, sans-serif;
+}
+.user-name-meun {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.child-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+}
+.child-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #6b66d1, #4b409d);
+
+  border-radius: 30px;
+  width: 35%;
+  height: 55px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.name-img {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.child-name {
+  margin-top: 15px;
+}
+.child-img {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: white;
+  padding: 2px;
+}
+.container-child-veiw {
+  text-align: right;
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  padding: 20px;
+  padding-right: 20%;
+}
+
+.title-child-veiw {
+  font-size: 40px;
+  font-weight: bold;
+  color: #5c4db1;
+  font-family: "Tajawal", sans-serif;
+}
+
+.subtitle-child-veiw {
+  font-size: 20px;
+  color: #5c4db1;
+  margin-top: -50px;
+  font-family: "Tajawal", sans-serif;
+}
+.font-family-cilde {
+  font-family: "Tajawal", sans-serif;
+}
+.child-settings {
+  margin-top: 5px;
+  font-size: 18px;
+}
+.child-form-container-outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.child-form-container {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  width: 80%;
+}
+
+.child-form-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6b66d1;
+  text-align: center;
+  font-family: "Tajawal", sans-serif;
+}
+
+.child-form-subtitle {
+  font-weight: bold;
+  font-size: 20px;
+  color: #6b66d1;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Tajawal", sans-serif;
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+.child-form-button {
+  margin-bottom: 20px;
+  padding: 12px 20px;
+  padding-top: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #6b66d1;
+  font-family: "Tajawal", sans-serif;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.child-form-button:hover {
+  background-color: #3b2e7e;
+}
+
+.child-form-button:focus {
+  outline: none;
+}

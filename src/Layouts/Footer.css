@@ -1,0 +1,102 @@
+.footer {
+  width: 100%;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-container {
+  background-color: #7671c3;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.footer-container-inner {
+  width: 50%;
+  margin-top: -4px;
+}
+
+.footer-container-outer {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.footer-container-inner-title {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18.72px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.footer-container-unordered-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-container-unordered-list li {
+  margin-bottom: 20px;
+  color: rgb(207, 206, 206);
+}
+
+.footer-container-inner-right,
+.footer-container-inner-left {
+  text-align: right;
+  width: 50%;
+}
+
+.footer-logo-img {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-top: 10px;
+  margin-top: -34px;
+  margin-bottom: -10px;
+}
+
+.footer-logo-img img {
+  width: 45%; /* Adjusted size */
+  height: auto;
+  margin-right: 10%;
+}
+
+.footer-text {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-right: 20%;
+  color: #6a55cc;
+  margin-bottom: 20px;
+}
+
+.footer-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6a55cc;
+  gap: 8px;
+  padding: 10px 0;
+  margin-top: -10px;
+  padding-top: 20px;
+}
+
+.font-footer {
+  color: rgb(207, 206, 206);
+}
+.font-footer-bold {
+  font-weight: bold;
+}
+.font-footer-family {
+  font-family: "Tajawal", sans-serif;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
